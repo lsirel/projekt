@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-section{
+    background: url(../components/home.jpg);
+    background-size: 60%;
+    overflow: hidden;
+    padding: 245px 0px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.inner-container{
+    width: 40%;
+    height: 70%;
+    float: right;
+    background-color: #7e745bbb;
+    padding: 10px;
+    margin-top: -195px;
+    margin-left: 800px;
+    border-style: double;
+    border-width: 8px;
+}
+
+.text{
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    padding-top: 7px;
+    font-style: italic;
+}
+
+.text1{
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    padding-top: 7px;
+    font-style: italic;
+}

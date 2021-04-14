@@ -1,0 +1,223 @@
+#contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    overflow: hidden;
+    padding: 10px;
+    margin-left: 120px;
+    margin-top: 45px;
+    backdrop-filter: blur(15px);
+    border: 4px double white;
+    box-shadow: 0px 10px 25px 0px;
+}
+
+.contact-info{
+    background-color: rgb(177, 165, 143);
+    flex: 0 1 40%;
+    margin-left: -700px;
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.icon-text .fa{
+    font-size: 1rem;
+    margin-right: 2rem;
+    flex: 0 0 20px;
+}
+
+.icon-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+}
+
+.info{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.alt{
+    font-size: 1rem;
+    color: rgba(73, 68, 68, 0.856);
+    font-weight: 300;
+    margin-bottom: 2rem;
+    margin-top: -45px;
+    text-shadow: 0px 1px 2px rgba(99, 97, 97, 0.6);
+}
+
+.social-media{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.icon-circle{
+    flex: 0 1 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    border-radius: 50%;
+    transition: .3s all ease-in-out;
+}
+
+.icon-circle:hover{
+    background: white;
+}
+
+.icon-circle .fa{
+    font-size: 20px;
+}
+
+form{
+    width: 50%;
+}
+
+form .col{
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    margin-left: 245px;
+    margin-top: -400px;
+}
+
+.form-group{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 0 1 100%;
+    padding-right: 40px;
+}
+
+.form-group-mail{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 0 1 100%;
+    padding-right: 75px;
+    margin-left: 245px;
+    margin-top: 30px;
+}
+
+.form-group label{
+    font-size: .9rem;
+    margin-bottom: .3rem;
+    color: rgb(117, 99, 72);
+}
+
+.form-group-mail label{
+    font-size: .9rem;
+    margin-bottom: .3rem;
+    color: rgb(117, 99, 72);
+}
+
+.form-group-message label{
+    font-size: .9rem;
+    margin-bottom: .3rem;
+    color: rgb(117, 99, 72);
+}
+
+.form-group:nth-child(2) {
+    padding-right:0;
+}
+
+.form-group input[type="text"]{
+    /* background: rgba(255, 255, 255, 0.4); */
+    border: none;
+    padding: 10px;
+    font-size: .7rem;
+    font-weight: 300;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+
+.form-group-mail input[type="email"]{
+    border: none;
+    padding: 10px;
+    font-size: .7rem;
+    font-weight: 300;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+
+textarea{
+    border: none;
+    padding: 10px;
+    font-size: .7rem;
+    font-weight: 300;
+    backdrop-filter: blur(15px);
+    cursor: pointer;
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+
+.message{
+    margin-top: 5px;
+}
+
+.form-group input[type="text"]:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(117, 99, 72);
+}
+
+.form-group-mail input[type="email"]:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(117, 99, 72);
+}
+
+.col2{
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    margin-left: 245px;
+    margin-top: -400px;
+}
+
+.form-group-message{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 0 1 100%;
+    margin-left: 245px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.message-button{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 10px;
+    background: rgb(177, 165, 143);
+    border: none;
+    color: white;
+    transition: .5s all ease-in-out;
+
+}
+
+.message-button:hover{
+    transition: .5s all ease-in-out;
+    transform: scale(1.1);
+}
+

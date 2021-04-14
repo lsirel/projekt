@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+  }
+
+  .row{
+    justify-content: center;
+  }
+
+  .column {
+    float: left;
+    width: 480px;
+    margin-bottom: 16px;
+    padding: 40px 75px;
+    margin-top: 30px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  h1{
+      text-align: center;
+      padding-top: 140px;
+      color: #574d33;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .image{
+      max-height: 520px;
+      width: 310px;
+      padding-left: 10px;
+      padding-top: 10px;
+  }
+
+  .card {
+    box-shadow: 2px 6px 12px 7px rgba(0, 0, 0, 0.2);
+    background-color:white;
+    height: 620px;
+    width: 320px;
+  }
+  
+  .container {
+    padding: 0 30px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  p{
+      padding-top: 56px;
+  }
+
+  .p1{
+    padding-top: 15px;
+  }
+  
+  .button {
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #8e825f;
+  }
+  
+  .button:hover {
+    color: black;
+    background: none;
+  }
+
+  .button1{
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #8e825f;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+  .button1:hover{
+    background-color: white;
+    color: black;
+
+  }
+
+  .modal {
+    font-size: 12px;
+    width: 60rem;
+    background-color: #e7e0cb;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    background: #8e825f;
+    height: 60px;
+    padding-top: 10px;
+    color: white;
+  }
+  .modal > .content {
+    width: 100%;
+    height: 20rem;
+    padding: 10px 5px;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    visibility: hidden;
+  }

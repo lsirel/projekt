@@ -1,0 +1,143 @@
+ul{
+    list-style: none;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 55px;
+}
+
+.cardrow{
+    height: 530px;
+    width: 23%;
+    background-color: rgb(170, 153, 131);
+    padding: 2rem;
+    text-align: center;
+    border-style: double;
+}
+
+.cardrow1{
+    height: 530px;
+    width: 23%;
+    background-color: rgb(170, 153, 131);
+    padding: 2rem;
+    text-align: center;
+    border-style: double;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top: -155px;
+    color: #443e2b;
+}
+
+.card-price{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.youth1{
+    font-size: 1.5rem;
+}
+
+.cardrow ul{
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.cardrow ul li:before{
+    content: "‣";
+    margin-right: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.cardrow ul li{
+    margin-bottom: 0.5rem;
+}
+
+.card-btn{
+    margin-top: 1rem;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#card-1 .card-btn:hover,
+#card-2 .card-btn:hover,
+#card-3 .card-btn:hover,
+#card-4 .card-btn:hover
+{
+    background-color: white;
+}
+
+#card-3 .card-price{
+    margin-top: 12px;
+}
+
+#card-4 .card-price{
+    margin-top: 12px;
+}
+
+#card-1 .card-price{
+    margin-bottom: 6rem;
+}
+
+#card-2 .card-price{
+    margin-bottom: 6rem;
+}
+
+#card-3 .card-price{
+    margin-bottom: 6rem;
+}
+
+#card-4 .card-price{
+    margin-bottom: 3.8rem;
+}
+
+@media (max-width:1435px){
+    .cards{
+        justify-content: center;
+    }
+
+    .cardrow{
+        width: 40%;
+        margin: 2rem;
+    }
+}
+
+@media (max-width:963px){
+    .cardrow{
+        width: 50%;
+    }
+}
+
+@media (max-width:958px){
+    .cardrow{
+        width: 50%;
+    }
+}
+
+@media (max-width:938px){
+    .cardrow{
+        height: 80%;
+        width: 60%;
+    }
+}
+
+
+
+
+
