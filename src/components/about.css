@@ -5,7 +5,7 @@
 }
 
 .about-section{
-    background: url(../home.jpg);
+    /* background: url(../home.jpg); */
     background-size: 60%;
     overflow: hidden;
     padding: 245px 0px;
