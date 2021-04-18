@@ -1,4 +1,4 @@
-const apiEndpoint = 'http://localhost:5000'
+const apiEndpoint = 'https://bstlopuprojekt.azurewebsites.net'
 
 const apiGet = (path) => fetch(apiEndpoint + path)
     .then(response => response.json())
