@@ -8,7 +8,6 @@ function Navbar() {
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-    //joumees
     return (
         <>
             <nav className='navbar'>
@@ -54,11 +53,11 @@ function Navbar() {
                             Contact
                         </Link>
                     </li>
-                    {/* <li className='nav-item'>
+                    <li className='nav-item'>
                         <Link to='/faq' className='nav-links' onClick={closeMobileMenu}>
                             FAQ
                         </Link>
-                    </li> */}
+                    </li>
                     <li className='nav-item'>
                         <Link to='/login' className='nav-links-mobile' onClick={closeMobileMenu}>
                             Login

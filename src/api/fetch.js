@@ -39,6 +39,10 @@ const apiGet = (path) => fetch(apiEndpoint + path)
     function getLesson () {
         return apiGet('/api/lessons')
     }
+
+    function getFaq () {
+        return apiGet('api/faqs')
+    }
     
     /* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
     export default {
@@ -50,5 +54,6 @@ const apiGet = (path) => fetch(apiEndpoint + path)
         getSchedule,
         getLesson,
         getCourseId,
-        getCourseById
+        getCourseById,
+        getFaq
     }

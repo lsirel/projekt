@@ -1,26 +1,41 @@
-// import React, {useState, useEffect} from 'react';
-// import './faq.css';
-// import fetch from '../api/fetch';
+import React, {useState, useEffect} from 'react';
+import './faq.css';
+import fetch from '../api/fetch';
 
-// const Packages = () => {
-//     const [getFaq, setFaq] = useState([]);
+const Faq = () => {
+    const [getFaq, setFaq] = useState([]);
   
-//     useEffect(() => {
-//       fetch.getFaq()
-//           .then(data => setFaq(data))
-//       }, [])
+    useEffect(() => {
+      fetch.getFaq()
+          .then(data => setFaq(data))
+      }, [])
   
-//       return(
-//         <section className="section">
-//             <div className="faq-container">
-//                 <div className="accordion">
-//                 </div>
-//             </div>
-//         </section>
-//       );
-//   };
+      return(
+        <section className="section">
+            {getFaq.map((faqs) => (
+            <div key={faqs.id} className="faq-container">
+                <div className="accordion">
+                    {/* Question 1 */}
+                    <div className="accordion-item" id="question1">
+                    <a className="accordion-link" href="#question1">
+                        {faqs.name}
+                        <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                        <ion-icon class="remove" name="remove-outline"></ion-icon>
+                    </a>
+                    <div className="answer">
+                        <p>
+                            {faqs.description}
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            ))}
+        </section>
+      );
+  };
   
-//   export default Packages;
+  export default Faq;
 
 // export default function Faq() {
 //   return(
