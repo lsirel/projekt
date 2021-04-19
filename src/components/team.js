@@ -39,7 +39,6 @@ const Instructors = () => {
                                 </div>
                                   <div className="actions">
                                   <span>
-                                    ...
                                   </span>
                                   <button
                                     className="button1"
