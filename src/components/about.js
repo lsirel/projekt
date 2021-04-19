@@ -15,6 +15,7 @@ const About = () => {
         <h1>About Us</h1>
         {getAbout.map((about) => (
         <div key={about.id} className="about-section">
+          <img src={about.image} alt="{about.teamPic}" className="teampic"/>
           <div className="inner-container">
             <p className="text">
               {about.description}     
