@@ -79,7 +79,7 @@
 .box {
     width: 1000px;
     background: #fff;
-    opacity: 90%;
+    opacity: 0.9;
     box-shadow: .5px .5px 2px .5px;
     margin: 80px auto;
     margin-top: 200px;
