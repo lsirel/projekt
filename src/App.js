@@ -8,7 +8,7 @@ import Courses from './components/courses';
 import Packages from './components/packages';
 import Schedule from './components/schedule';
 import Contact from './components/contact';
-import Login from './components/login';
+// import Login from './components/login';
 import Home from './components/home';
 import Faq from './components/faq';
 
@@ -25,7 +25,7 @@ const App = () => {
         <Route path='/schedule' exact component={Schedule}/>
         <Route path='/contact' exact component={Contact}/>
         <Route path='/faq' exact component={Faq}/>
-        <Route path='/login' exact component={Login}/>
+        {/* <Route path='/login' exact component={Login}/> */}
       </Switch>
     </Router>
   );

@@ -12,6 +12,7 @@
     background-color: #8e825f;
     padding: 4px 6px;
     border-radius: 3px;
+    outline: none;
 }
 
 .btn:hover{

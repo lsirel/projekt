@@ -22,7 +22,9 @@ const Packages = () => {
             <ul className="card-plan">
               <li>{packages.description}</li>
             </ul>
-            <button type="button" className="card-btn"> SELECT</button>
+            <div className="openBtn">
+              <button type="button" className="card-btn"> SELECT</button>
+            </div>
           </div>
           ))}
         </div>

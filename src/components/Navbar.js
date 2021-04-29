@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { Button } from './Button';
+// import { Button } from './Button';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -9,7 +9,7 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
     return (
-        <>
+        <> 
             <nav className='navbar'>
                 <Link to='/' className='navbar-logo'>
                     BachataStudioTallinn
@@ -58,13 +58,13 @@ function Navbar() {
                             FAQ
                         </Link>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <Link to='/login' className='nav-links-mobile' onClick={closeMobileMenu}>
                             Login
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
-                <Button/>
+                {/* <Button/> */}
             </nav>
         </>
     );
