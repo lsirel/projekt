@@ -4,7 +4,7 @@ import './faq.css';
 import fetch from '../api/fetch';
 
 
-export default function Faq() {
+const Faq = () => {
     const [getFaqs, setFaqs] = useState([]);
 
     useEffect(() => {
@@ -26,3 +26,5 @@ export default function Faq() {
       </div>
     );
 }
+
+export default Faq;
