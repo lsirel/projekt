@@ -41,12 +41,12 @@
     margin-left: 60px;
   }
 
-  .nav-item-dropdown {
+  /* .nav-item-dropdown {
     display: flex;
     align-items: center;
     height: 80px;
     margin-left: 60px;
-  }
+  } */
   
   .nav-links {
     color: #8e825f;
@@ -56,7 +56,7 @@
     margin-left: 12px;
   }
 
-  .nav-links-dropdown {
+  /* .nav-links-dropdown {
     text-decoration: none;
     text-transform: uppercase;
     padding: 0.5rem 0rem ;
@@ -90,7 +90,7 @@
 
   .nav-item-dropdown:hover .dropdown-content {
     display: block;
-  }
+  } */
   
   .fa-bars {
     color: #8e825f;
