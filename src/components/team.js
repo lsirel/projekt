@@ -19,7 +19,7 @@ const Instructors = () => {
           <div className="row">
           {getInstructors.map((instructor) => (
             <div key={instructor.id} class="column">
-              <div class="card">
+              <div class="team-card">
                 <img src={instructor.image} alt="{instructor.firstName}" className='image'/>
                   <div class="container">
                     <h2>{instructor.firstName} {instructor.lastName}</h2>

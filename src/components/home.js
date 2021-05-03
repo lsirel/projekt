@@ -1,9 +1,11 @@
 import React from 'react';
 import './home.css';
 
-export default function Home() {
+function Home() {
   return(
-    <>
-    </>
+    <div className="image-container">
+    </div>
   );
 }
+
+export default Home;

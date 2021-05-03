@@ -42,7 +42,7 @@ html {
       padding-top: 10px;
   }
 
-  .card {
+  .team-card {
     box-shadow: 2px 6px 12px 7px rgba(0, 0, 0, 0.2);
     background-color:transparent;
     height: 560px;
