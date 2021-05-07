@@ -24,7 +24,7 @@ const apiGet = (path) => fetch(apiEndpoint + path)
         return apiGet('/api/packages')
     }
     
-    function getEvent () {
+    function getEvents () {
         return apiGet('/api/events')
     }
     
@@ -49,7 +49,7 @@ const apiGet = (path) => fetch(apiEndpoint + path)
         getInstructors,
         getCourse,
         getPackages,
-        getEvent,
+        getEvents,
         getAbout,
         getSchedule,
         getLesson,

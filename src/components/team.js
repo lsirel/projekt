@@ -13,6 +13,8 @@ const Instructors = () => {
     }, [])
 
     return(
+      
+                
       <html>
         <body>
           <h1>Meet the Team</h1>

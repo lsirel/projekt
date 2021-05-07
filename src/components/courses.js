@@ -13,7 +13,7 @@ const Courses = () => {
     }, [])
 
   return(
-    <body className="courses-body">
+    <body className="courses">
       {getCourse.map((course) => (
       <div key={course.id} className="grid">
 

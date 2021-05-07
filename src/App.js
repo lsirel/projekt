@@ -11,6 +11,8 @@ import Contact from './components/contact';
 // import Login from './components/login';
 import Home from './components/home';
 import Faq from './components/faq';
+import Events from './components/events';
+
 
 const App = () => {
   return (
@@ -23,6 +25,7 @@ const App = () => {
         <Route path='/courses' exact component={Courses}/>
         <Route path='/packages' exact component={Packages}/>
         <Route path='/schedule' exact component={Schedule}/>
+        <Route path='/events' exact component={Events}/>
         <Route path='/contact' exact component={Contact}/>
         <Route path='/faq' exact component={Faq}/>
         {/* <Route path='/login' exact component={Login}/> */}
