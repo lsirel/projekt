@@ -1,4 +1,4 @@
-.courses {
+/* .courses {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,4 +103,124 @@
     .grid {
         grid-gap: 3rem;
     }
+} */
+
+.courses {
+    margin: 0;
+    padding: 0;
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-family: sans-serif;
+    margin-left: 50px;
 }
+
+.container-courses {
+    width: 420px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-courses .card-courses {
+    position: relative;
+    border-radius: 10px;
+}
+
+.container-courses .card-courses .face {
+    width: 380px;
+    height: 270px;
+    transition: 0.5s;
+}
+
+.container-courses .card-courses .face img {
+    width: 380px;
+    height: 230px;
+    transition: 0.5s;
+}
+
+.container-courses .card-courses .face.face1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(140px);
+}
+
+.container-courses .card-courses:hover .face img {
+    transform: translateY(50px);
+}
+
+.container-courses .card-courses:hover .face.face1{
+    transform: translateY(0px);
+}
+
+.container-courses .card-courses .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container-courses .card-courses:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.container-courses .card-courses .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    transform: translateY(-80px);
+}
+
+.container-courses .card-courses:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container-courses .card-courses .face.face2 .content p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: #414141;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+.container-courses .card-courses:hover .face.face2 .content p {
+    margin: 0;
+    padding-top: 60px;    
+    text-align: center;
+    color: #414141;
+    font-size: 15px;
+    visibility: unset;
+}
+
+.container-courses .card-courses .face.face2 .content .course-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-courses .card-courses:hover .face.face2 .content .course-name {
+    visibility: hidden;
+}
+
+
+
+/* .course-name {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .courses-header {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: -700px;
+} */
