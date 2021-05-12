@@ -23,7 +23,7 @@ const Packages = () => {
               <li>{packages.description}</li>
             </ul>
             <div className="openBtn">
-              <a href="https://mairu.ee/EUWiKIzl" className="card-btn"> SELECT</a>
+              <a href={packages.paymentLink} rel="noreferrer" target="_blank" className="card-btn">Select</a>
             </div>
           </div>
           ))}
