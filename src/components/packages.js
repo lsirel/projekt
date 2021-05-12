@@ -23,7 +23,7 @@ const Packages = () => {
               <li>{packages.description}</li>
             </ul>
             <div className="openBtn">
-              <button type="button" className="card-btn"> SELECT</button>
+              <a href="" type="button" className="card-btn"> SELECT</a>
             </div>
           </div>
           ))}
