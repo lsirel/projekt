@@ -23,7 +23,7 @@ const Packages = () => {
               <li>{packages.description}</li>
             </ul>
             <div className="openBtn">
-              <a href="" type="button" className="card-btn"> SELECT</a>
+              <a href={packages.paymentlink} type="button" className="card-btn"> SELECT</a>
             </div>
           </div>
           ))}
