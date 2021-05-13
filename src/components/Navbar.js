@@ -29,6 +29,8 @@ function Navbar() {
                         </Link>
                         <div className="dropdown-content">
                         <a href="/about">Studio</a>
+                        <a href="/team">Team</a>
+                        <a href="/faq">FAQ</a>
                         <a href="/privacypolicy">Privacy Policy</a>
                         </div>
                     </li> 
@@ -37,11 +39,11 @@ function Navbar() {
                             About
                         </Link>
                     </li> */}
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <Link to='/team' className='nav-links' onClick={closeMobileMenu}>
                             Team
                         </Link>
-                    </li>
+                    </li> */}
                     <li className='nav-item'>
                         <Link to='/courses' className='nav-links' onClick={closeMobileMenu}>
                             Courses
@@ -52,11 +54,11 @@ function Navbar() {
                             Packages
                         </Link>
                     </li>
-                    {/* <li className='nav-item'>
+                    <li className='nav-item'>
                         <Link to='/schedule' className='nav-links' onClick={closeMobileMenu}>
                             Schedule
                         </Link>
-                    </li> */}
+                    </li>
                     <li className='nav-item'>
                         <Link to='/events' className='nav-links' onClick={closeMobileMenu}>
                             Events
@@ -67,11 +69,11 @@ function Navbar() {
                             Contact
                         </Link>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <Link to='/faq' className='nav-links' onClick={closeMobileMenu}>
                             FAQ
                         </Link>
-                    </li>
+                    </li> */}
                     {/* <li className='nav-item'>
                         <Link to='/login' className='nav-links-mobile' onClick={closeMobileMenu}>
                             Login
