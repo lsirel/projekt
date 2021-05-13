@@ -1,0 +1,188 @@
+table {
+    font-family:sans-serif;
+	width: 90%;
+	border-spacing: 0;
+    border-collapse: separate;
+	table-layout: fixed;
+	margin-top: 150px;
+    margin-left: 75px;
+    /* border: 1px solid #8e825f; */
+}
+
+table thead tr th {
+    background: #7c7359;
+	color: beige;
+	padding: 0.5em;
+	overflow: hidden;
+    opacity: 0.7;
+}
+
+table thead tr th:first-child {
+    border-radius:3px 0 0 0;
+}
+
+table thead tr th:last-child {
+    border-radius:0 3px  0 0;
+}
+
+table thead tr th .day {
+    display: block;
+	font-size: 1.2em;
+	border-radius: 50%;
+	width: 30px;
+    height: 30px;
+	margin: 0 auto 5px;
+	padding: 5px;
+    line-height: 1.8;
+}
+
+table thead tr th .day .active {
+    background: white;
+    color: white;
+}
+
+table thead tr th .short {
+    display: none;
+}
+
+table thead tr th i {
+    vertical-align: middle;
+	font-size: 2em;
+}
+
+tbody tr {
+    background: white;
+    opacity: 0.9;
+}
+
+tr:nth-child(odd) {
+    background: white;
+    
+}
+
+tbody tr:nth-child(4n+0) td {
+    border-bottom: 1px solid #8e825f;
+}
+
+tbody tr td {
+    text-align: center;
+	vertical-align: middle;
+	border-left: 1px solid #8e825f;
+	position: relative;
+	height: 28px;
+	cursor: pointer;
+}
+
+/* tr td:last-child {
+    border-right:2px solid #8e825f;
+}  */
+
+tbody tr td .hour {
+    font-size: 2em;
+	padding: 0;
+	color: #8e825f;
+    background:#fff;
+	border-bottom: 2px solid #8e825f;
+	border-collapse: separate;
+	min-width: 100px;
+	cursor: default;
+}
+
+tbody tr td .hour span {
+    display: block;
+}
+
+.advanced {
+    background-color: rgba(212, 71, 52, 0.897);
+}
+
+.instructors-training {
+    background-color: rgb(247, 149, 132);
+}
+
+.improvers {
+    background-color: rgb(64, 165, 224);
+}
+
+.ladies-shines {
+    background-color: rgb(228, 178, 186);
+}
+
+.intermediate {
+    background-color: rgb(233, 141, 61);
+}
+
+.show-dance {
+    background-color: rgb(170, 189, 179);
+}
+
+.workshop {
+    background-color: rgb(201, 146, 201);
+}
+
+.bachata-party {
+    background-color: rgb(177, 215, 252);
+}
+
+.beginners {
+    background-color: rgb(34, 150, 34);
+}
+
+@media(max-width:60em){
+    thead tr th .long{
+        display: none;
+    }
+}
+
+@media(max-width:60em){
+    thead tr th .short{
+        display: block;
+    }
+}
+
+@media(max-width:60em){
+    tr td .hour span {
+        transform:rotate(270deg);
+        -webkit-transform:rotate(270deg);
+        -moz-transform:rotate(270deg);
+    }
+}
+
+@media(max-width:27em){
+    thead tr th {
+        font-size: 65%;
+    }
+}
+
+@media(max-width:27em) {
+    thead tr th .day {
+        display: block;
+        font-size: 1.2em;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        margin: 0 auto 5px;
+        padding: 5px;
+    }
+}
+
+@media(max-width:27em) {
+    thead tr th .day .active {
+        background: beige;
+        color: blue;
+    }
+}
+
+@media(max-width:27em) {
+    tr td .hour{
+        font-size: 1.7em;
+    }
+}
+
+@media(max-width:27em) {
+    tr td .hour span{
+        transform:translateY(16px)rotate(270deg);
+        -webkit-transform:translateY(16px)rotate(270deg);
+        -moz-transform:translateY(16px)rotate(270deg);
+    }
+}
