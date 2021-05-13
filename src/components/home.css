@@ -1,0 +1,146 @@
+.background{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.home{
+    margin: 50px 0;
+    background-color: white;
+    opacity: 0.9;
+    padding-bottom: 10px;
+}
+
+.container2{
+    padding-top: 50px;
+}
+
+.col-lg-7{
+   padding-left: 100px;
+}
+
+
+.map-container-6{
+    position:relative;
+    width: 100%;
+    margin: auto;
+    margin-left: -50px;
+}
+
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    width:100%;
+    height: 400px;
+    align-items: center;
+}
+
+.quote-container {
+    opacity: 0.8;
+    padding: 0 30px;
+    padding-bottom: 20px;
+}
+
+.quote-field {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    margin-top: -130px;
+    padding: 10px 70px;
+}
+
+.quote-field p {
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+    text-shadow: 2px 2px black;
+}
+
+/* .info-container {
+    padding: 0 70px;
+    padding-bottom: 40px;
+}
+
+.info-field {
+    width: 100%;
+    background-color: rgb(94, 91, 91);
+} */
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0px 10px;
+    margin-left: 75px;
+  }
+  
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 5px 10px;
+    padding-bottom: 40px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Style the counter cards */
+.card {
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 300px;
+    width: 350px;
+}
+
+.text-border {
+    background-color: rgba(216, 188, 127, 0.514);
+    width: 280px;
+    height: 280px;
+    margin-left: 20px;
+    margin-top: -4px;
+    border-radius: 50%;
+}
+
+.text-border h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.dancers2 {
+    width: 130px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.dancers1 {
+    width: 220px;
+    margin-top: -35px;
+    margin-left: -15px;
+}
+
+.dancers3 {
+    width: 200px;
+    margin-top: 15px;
+}
+  
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
