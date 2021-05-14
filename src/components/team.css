@@ -49,11 +49,11 @@ html {
     width: 320px;
   }
   
-  .container {
+  .instructors-container {
     padding: 30px;
   }
   
-  .container::after, .row::after {
+  .instructors-container::after, .row::after {
     content: "";
     clear: both;
     display: table;

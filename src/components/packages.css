@@ -143,9 +143,10 @@
     height: 400px;
   }
 
-  .card-packages p {
+  .card-packages .packages-name {
       font-size: 25px;
       font-style: italic;
+      padding: 25px;
   }
 
   .card-packages h2 {

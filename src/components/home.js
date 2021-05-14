@@ -21,7 +21,7 @@ function Home() {
               <div class="column">
                 <div class="card">
                   <div className="text-border">
-                    <p>Bachata Couples</p>
+                    <p className="text-header">Bachata Couples</p>
                     <img src="/images/couplesdance-removebg-preview.png" alt="" className="dancers1"></img>
                   </div>
                 </div>
@@ -29,7 +29,7 @@ function Home() {
               <div class="column">
                 <div class="card">
                 <div className="text-border">
-                  <p>Private classes</p>
+                  <p className="text-header">Private classes</p>
                   <img src="/images/dancers-removebg-preview.png" alt="" className="dancers2"></img>
                 </div>
                 </div>
@@ -37,7 +37,7 @@ function Home() {
               <div class="column">
                 <div class="card">
                 <div className="text-border">
-                  <p>Events & parties</p>
+                  <p className="text-header">Events & parties</p>
                   <img src="/images/istockphoto-115056436-612x612-removebg-preview.png" alt="" className="dancers3"></img>
 
                 </div>

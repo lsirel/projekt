@@ -60,17 +60,8 @@
     text-align: center;
     line-height: 80px;
     text-shadow: 2px 2px black;
+    margin-top: 45px;
 }
-
-/* .info-container {
-    padding: 0 70px;
-    padding-bottom: 40px;
-}
-
-.info-field {
-    width: 100%;
-    background-color: rgb(94, 91, 91);
-} */
 
 /* Float four columns side by side */
 .column {
@@ -112,11 +103,12 @@
     border-radius: 50%;
 }
 
-.text-border h1 {
+.text-border .text-header {
     text-align: center;
     align-items: center;
     justify-content: center;
     font-size: 25px;
+    padding-top: 50px;
 }
 
 .dancers2 {
@@ -127,7 +119,7 @@
 
 .dancers1 {
     width: 220px;
-    margin-top: -35px;
+    margin-top: -40px;
     margin-left: -15px;
 }
 

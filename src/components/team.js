@@ -22,7 +22,7 @@ const Instructors = () => {
             <div key={instructor.id} class="column">
               <div class="team-card">
                 <img src={instructor.image} alt="{instructor.firstName}" className='image'/>
-                  <div class="container">
+                  <div class="instructors-container">
                     <h2>{instructor.firstName} {instructor.lastName}</h2>
                   </div>
                   <div class="tooltip">Read more...

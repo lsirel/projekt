@@ -108,6 +108,6 @@ details summary {
     outline: none;
 }
 
-.content {
-    margin-top: -35px;
+details .content {
+    margin-top: 25px;
 }

@@ -12,13 +12,13 @@ const Faq = () => {
     }, [])
     
   return(
-      <div class="box">
-          <p class="heading">FAQs</p>
+      <div className="box">
+          <p className="heading">FAQs</p>
           {getFaqs.map((faqs) => (
           <div key={faqs.id} class="faqs">
               <details>
                   <summary>{faqs.name}</summary>
-                  <p class="content">{faqs.description}</p>
+                  <p className="content">{faqs.description}</p>
               </details>
           </div>
           ))}

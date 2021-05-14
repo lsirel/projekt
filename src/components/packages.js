@@ -16,7 +16,7 @@ const Packages = () => {
           <div key={packages.id}>
             <div class="column-packages">
               <div class="card-packages">
-                <p>{packages.name}</p>
+                <p className="packages-name">{packages.name}</p>
                 <br></br>
                 <h2>{packages.price}€</h2>
                 <ul>
