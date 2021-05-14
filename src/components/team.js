@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-// import Popup from 'reactjs-popup';
+import Popup from 'reactjs-popup';
 import './team.css';
 import fetch from '../api/fetch';
 
@@ -26,7 +26,7 @@ const Instructors = () => {
                   <div class="container">
                     <h2>{instructor.firstName} {instructor.lastName}</h2>
                     <p className="p1">
-                      {/* <Popup
+                      <Popup
                         trigger={<button className="button"> READ MORE... </button>}
                         modal
                         nested
@@ -54,7 +54,7 @@ const Instructors = () => {
                             </div>
                           </div>
                         )}
-                      </Popup> */}
+                      </Popup>
                     </p>
                   </div>
                 </div>
