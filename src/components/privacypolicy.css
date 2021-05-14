@@ -1,0 +1,14 @@
+.pp-container h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.pp-container {
+    width: 100%;
+    background-color: white;
+    margin-top: 250px;
+    height: 400px;
+    padding: 30px;
+}

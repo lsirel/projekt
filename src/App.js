@@ -12,6 +12,7 @@ import Contact from './components/contact';
 import Home from './components/home';
 import Faq from './components/faq';
 import Events from './components/events';
+import privacyPolicy from './components/privacyPolicy';
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/' exact component={Home}/>
         <Route path='/about' exact component={About}/>
         <Route path='/team' exact component={Team}/>
+        <Route path='/privacyPolicy' exact component={privacyPolicy}/>
         <Route path='/courses' exact component={Courses}/>
         <Route path='/packages' exact component={Packages}/>
         <Route path='/schedule' exact component={Schedule}/>

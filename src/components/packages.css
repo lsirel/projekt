@@ -1,4 +1,4 @@
-ul{
+/* ul{
     list-style: none;
 }
 
@@ -111,4 +111,75 @@ ul{
 
 
 
+ */
+/* Float four columns side by side */
+.column-packages {
+    float: left;
+    width: 20%;
+    padding: 0 175px;
+    margin-top: 300px;
+    margin-left: 2px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row-packages {
+      margin: 0 -160px;
+    }
+  
+  /* Clear floats after the columns */
+  .row-packages:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card-packages {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 340px;
+    height: 400px;
+  }
 
+  .card-packages p {
+      font-size: 25px;
+      font-style: italic;
+  }
+
+  .card-packages h2 {
+      font-size: 40px;
+      padding: 30px 0px;
+  }
+
+  .card-packages ul {
+      padding: 25px 50px;
+  }
+
+  .card-packages .openBtn a{
+      padding: 10px 60px;
+      cursor: pointer;
+      outline: none;
+      border: 1px solid black;
+      text-decoration: none;
+      color: black;
+  }
+
+  .card-packages .openBtn {
+      padding: 15px;
+  }
+
+  .card-packages .openBtn a:hover {
+    background-color: black;
+    color: white;
+}
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
