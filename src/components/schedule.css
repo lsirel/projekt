@@ -92,16 +92,16 @@ tbody tr td .hour span {
     display: block;
 }
 
-.advanced {
-    background-color: rgba(138, 43, 31, 0.897);
+.instructors-training {
+    background-color: rgb(169, 228, 243);
 }
 
-.instructors-training {
+.advanced{
     background-color: rgb(160, 141, 113);
 }
 
 .improvers {
-    background-color: rgb(58, 112, 143);
+    background-color: rgb(169, 228, 243);
 }
 
 .ladies-shines {
@@ -109,7 +109,7 @@ tbody tr td .hour span {
 }
 
 .intermediate {
-    background-color: rgb(182, 121, 68);
+    background-color: rgb(160, 141, 113);
 }
 
 .show-dance {
@@ -121,11 +121,11 @@ tbody tr td .hour span {
 }
 
 .bachata-party {
-    background-color: rgb(216, 138, 197);
+    background-color: rgb(160, 141, 113);
 }
 
 .beginners {
-    background-color: rgb(67, 116, 67);
+    background-color: rgb(228, 178, 186);
 }
 
 @media(max-width:60em){

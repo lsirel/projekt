@@ -1,117 +1,3 @@
-/* ul{
-    list-style: none;
-}
-
-.cards{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    flex-wrap: wrap;
-    margin-top: 55px;
-}
-
-.cardrow{
-    height: 570px;
-    width: 23%;
-    background-color: rgb(170, 153, 131);
-    padding: 2rem;
-    text-align: center;
-    border-style: double;
-}
-
-.card-title{
-    font-size: 1.5rem;
-    font-weight: lighter;
-    margin-top: -155px;
-    color: #443e2b;
-}
-
-.card-price{
-    font-size: 2.2rem;
-    text-align: center;
-    font-weight: bolder;
-    margin-top: 50px;
-}
-
-.youth1{
-    font-size: 1.3rem;
-}
-
-.cardrow ul{
-    text-align: left;
-    font-size: 1rem;
-    font-weight: lighter;
-}
-
-.cardrow ul li:before{
-    content: "‣";
-    margin-right: 0.5rem;
-    color: white;
-    font-size: 1rem;
-}
-
-.cardrow ul li{
-    margin-bottom: 1rem;
-}
-
-.card-btn{
-    margin-top: .5rem;
-    width: 100%;
-    background-color: transparent;
-    border: 2px solid white;
-    font-size: 1rem;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
-#card-1 .card-btn:hover
-{
-    background-color: white;
-    cursor: pointer;
-}
-
-#card-1 .card-price{
-    margin-bottom: 6rem;
-}
-
-
-
-@media (max-width:1435px){
-    .cards{
-        justify-content: center;
-    }
-
-    .cardrow{
-        width: 40%;
-        margin: 2rem;
-    }
-}
-
-@media (max-width:963px){
-    .cardrow{
-        width: 50%;
-    }
-}
-
-@media (max-width:958px){
-    .cardrow{
-        width: 50%;
-    }
-}
-
-@media (max-width:938px){
-    .cardrow{
-        height: 80%;
-        width: 60%;
-    }
-}
-
-
-
-
- */
 /* Float four columns side by side */
 .column-packages {
     float: left;
@@ -136,7 +22,7 @@
   /* Style the counter cards */
   .card-packages {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 10px;
+    padding: -5px 5px;
     text-align: center;
     background-color: #f1f1f1;
     width: 340px;
@@ -146,7 +32,7 @@
   .card-packages .packages-name {
       font-size: 25px;
       font-style: italic;
-      padding: 25px;
+      padding: 20px 4px;
   }
 
   .card-packages h2 {
